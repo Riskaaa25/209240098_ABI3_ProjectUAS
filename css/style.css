@@ -160,6 +160,16 @@
       margin-bottom: 1rem;
     }
 
+    .detail-image {
+     width: 100%;
+     max-width: 350px;
+     height: auto;           /* agar tinggi menyesuaikan */
+     object-fit: contain;    /* tampil utuh tanpa dipotong */
+     border-radius: 10px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+     margin-bottom: 15px;
+}
+
     /* Sembunyikan deskripsi produk secara default, akan ditampilkan saat tombol 'Lihat Detail' diklik */
     .deskripsi-produk {
       display: none;
